@@ -7,12 +7,17 @@
 //
 
 #import "DPBAppDelegate.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 @implementation DPBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [FBLoginView class];
+    [FBProfilePictureView class];
+    
     return YES;
 }
 							
@@ -41,6 +46,10 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
 }
 
 @end
