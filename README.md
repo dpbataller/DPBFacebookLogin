@@ -13,8 +13,10 @@ This example consists of an application with **2 View Controllers** (*DPBLoginVi
 
 ####  Configuration
 
-To handle *Login With Facebook* feature is neccesary configure some parameters in **Facebook Developer** portal and **Xcode project**:
+To handle *Login With Facebook* feature is neccesary configure some parameters in **Facebook Developer portal** and **Xcode project**:
 
 1. Ordered list item
 2. Ordered list item
 3. Ordered list item
+
+
