@@ -1,4 +1,4 @@
-# DPBFacebookLogin Sample
+# DPBFacebookLogin
 
 ![DPBFacebookLogin icon](http://imageshack.com/a/img843/1882/c7jl.png)
 
