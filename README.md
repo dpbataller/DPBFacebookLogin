@@ -18,7 +18,7 @@ This example consists of an application with **2 View Controllers** (*DPBLoginVi
 
 
 
-> To handle *Login With Facebook* feature is neccesary register your app in  **Facebook Developers Webstie** and configure some parameters in and **Xcode project**:
+> To handle *Login With Facebook* feature is neccesary register your app in  **Facebook Developers Webstie** and configure some parameters in **Xcode project**:
 
 
 ## Registering your app in Facebook Developers Website
