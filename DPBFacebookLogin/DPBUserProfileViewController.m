@@ -21,7 +21,7 @@
     
     _facebookButton.delegate = self;
     
-    _statusLabel.text    = @"¡Welcome to DPBFacebook Login!";
+    _statusLabel.text    = @"¡Welcome to DPBFacebookLogin!";
     _userNameLabel.text  = [NSString stringWithFormat:@"Hi! %@", _userString];
     _userEmailLabel.text = _emailString;
     _userImage.profileID = _profileID;

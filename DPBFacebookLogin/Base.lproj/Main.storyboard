@@ -16,17 +16,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="dLf-Ox-M16" userLabel="App Logo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="dLf-Ox-M16" userLabel="App Logo">
                                 <rect key="frame" x="37" y="112" width="247" height="256"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="Ffj-YM-UUS"/>
+                                    <constraint firstAttribute="height" constant="256" id="xKm-Vi-yR7"/>
+                                </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wTE-ca-ve6" userLabel="Facebook Login View" customClass="FBLoginView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wTE-ca-ve6" userLabel="Facebook Login View" customClass="FBLoginView">
                                 <rect key="frame" x="20" y="410" width="280" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="Hoj-Hc-YqT"/>
+                                    <constraint firstAttribute="height" constant="50" id="xQ1-qi-Byi"/>
+                                </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.61504330839999999" green="0.29217686164212175" blue="0.27835056785252033" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.33540808462094923" green="0.36766107810024323" blue="0.77719514266304346" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wTE-ca-ve6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="Izw-gg-8x4"/>
+                            <constraint firstItem="dLf-Ox-M16" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="37" id="TSe-bp-c9O"/>
+                            <constraint firstItem="dLf-Ox-M16" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="92" id="UyM-Pl-Ra4"/>
+                            <constraint firstAttribute="trailing" secondItem="wTE-ca-ve6" secondAttribute="trailing" constant="20" id="WiH-Fo-wgb"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="wTE-ca-ve6" secondAttribute="bottom" constant="20" id="jVb-WE-ayp"/>
+                            <constraint firstAttribute="trailing" secondItem="dLf-Ox-M16" secondAttribute="trailing" constant="36" id="t6B-Pc-YI7"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="imageLogo" destination="dLf-Ox-M16" id="1S5-NZ-2Cd"/>
@@ -49,38 +65,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AqM-uZ-fAg" customClass="FBProfilePictureView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AqM-uZ-fAg" customClass="FBProfilePictureView">
                                 <rect key="frame" x="110" y="107" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="4Zm-zA-Wyf"/>
+                                    <constraint firstAttribute="width" constant="100" id="IHH-Fg-6MA"/>
+                                </constraints>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ih2-BA-GRT">
                                 <rect key="frame" x="20" y="257" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <color key="textColor" red="0.1674309192" green="0.48565950600000002" blue="0.81364639949999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KG-tz-svQ">
                                 <rect key="frame" x="20" y="300" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" red="0.2638034541" green="0.28920730160000002" blue="0.61504330839999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
+                                <color key="textColor" red="0.2049700802846261" green="0.22468009613096893" blue="0.47494904891304346" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U4G-Ui-Btq" customClass="FBLoginView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4G-Ui-Btq" customClass="FBLoginView">
                                 <rect key="frame" x="20" y="385" width="280" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3I8-s0-Tf4"/>
+                                    <constraint firstAttribute="width" constant="280" id="8rY-wg-hf6"/>
+                                </constraints>
                             </view>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dip-0F-3lO">
-                                <rect key="frame" x="20" y="34" width="280" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="dip-0F-3lO">
+                                <rect key="frame" x="20" y="42" width="280" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="NUQ-m2-1Yo"/>
+                                    <constraint firstAttribute="height" constant="29" id="q6i-7H-OUe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.2049700803" green="0.2246800961" blue="0.4749490489" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.95204676552678114" green="0.95781674592391308" blue="0.94627678512964908" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.84468116179999997" green="0.84980044160000001" blue="0.83956188200000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="U4G-Ui-Btq" secondAttribute="trailing" constant="20" id="5W9-F4-t94"/>
+                            <constraint firstAttribute="trailing" secondItem="dip-0F-3lO" secondAttribute="trailing" constant="20" id="MWd-Yd-Dpc"/>
+                            <constraint firstItem="AqM-uZ-fAg" firstAttribute="top" secondItem="dip-0F-3lO" secondAttribute="bottom" constant="36" id="SF5-j1-l9j"/>
+                            <constraint firstItem="AqM-uZ-fAg" firstAttribute="leading" secondItem="dy8-Cb-vEZ" secondAttribute="leading" constant="110" id="Wn9-9c-OrD"/>
+                            <constraint firstAttribute="trailing" secondItem="AqM-uZ-fAg" secondAttribute="trailing" constant="110" id="gLy-h2-psB"/>
+                            <constraint firstItem="dip-0F-3lO" firstAttribute="leading" secondItem="dy8-Cb-vEZ" secondAttribute="leading" constant="20" id="npW-vb-jV7"/>
+                            <constraint firstItem="Q27-Qd-3pd" firstAttribute="top" secondItem="U4G-Ui-Btq" secondAttribute="bottom" constant="45" id="qlf-Ha-Tf9"/>
+                            <constraint firstItem="U4G-Ui-Btq" firstAttribute="leading" secondItem="dy8-Cb-vEZ" secondAttribute="leading" constant="20" id="tda-gc-EUm"/>
+                            <constraint firstItem="dip-0F-3lO" firstAttribute="top" secondItem="iE8-32-NOS" secondAttribute="bottom" constant="22" id="y2K-wG-VUe"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="facebookButton" destination="U4G-Ui-Btq" id="OhQ-KJ-2Zu"/>
