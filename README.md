@@ -8,11 +8,11 @@
 
 This example consists of an application with **2 View Controllers** (*DPBLoginViewController* and *DPBProfileViewController*). 
 
-- **DPBLoginViewController** responsible to show the main View with *Login With Facebook* view (dark blue button) and managing the login process.
+- **DPBLoginViewController** is responsible to show the main View with *Login With Facebook* view (dark blue button) and managing the login process.
 	
 	![DPBLoginViewController image](http://imageshack.com/a/img844/9576/of0b.png)
 
-- **DPBProfileViewController** responsible to display user information once it is logged in the view. The user can log off and return to the main View Controller to log on in other occasions.
+- **DPBProfileViewController** is responsible to display user information once it is logged in the view. The user can log off and return to the main View Controller to log on in other occasions.
 
 	![DPBLoginViewController image](http://imageshack.com/a/img836/5884/2he1.png)
 
