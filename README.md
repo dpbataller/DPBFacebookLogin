@@ -1,4 +1,4 @@
-# DPBFacebookLogin
+# DPBFacebookLogin Sample
 
 ![DPBFacebookLogin icon](http://imageshack.com/a/img843/1882/c7jl.png)
 
@@ -8,7 +8,7 @@
 
 This example consists of an application with **2 View Controllers** (*DPBLoginViewController* and *DPBProfileViewController*). 
 
-- **DPBLoginViewController** is responsible to show the main View with *Login With Facebook* view (dark blue button) and managing the login process.
+- **DPBLoginViewController** is responsible to handler the login process.
 	
 	![DPBLoginViewController image](http://imageshack.com/a/img844/9576/of0b.png)
 
@@ -23,9 +23,23 @@ This example consists of an application with **2 View Controllers** (*DPBLoginVi
 
 ## Registering your app in Facebook Developers Website
 
-1. Go to Facebook Developer Website: <https://developers.facebook.com/> and log in with your Facebook credentials.
-2. After you have logged in, click on the Apps link with a down arrow image positioned in navigation menu, and from the menu that will appear select Create a new App.
+1. If you haven't already registered your app with Facebook by creating a Facebook app, you must create a new app on the App Dashboard <https://developers.facebook.com/apps/>. In the App Dashboard, select Apps > Create a New App. 
+2. Fill in the basic information  **Display Name** and **Category**, others are optionaly. After this click on the Create App button.
+3. The next step is to enable the app login from iOS. Click on the Settings option in the left menu, and in the main area click on the +Add Platform big button. In the new window, select the iOS platform. A new panel is appeared on the dashboard titled iOS. In the Bundle ID field, it’s very important to enter the exact same to the project’s Bundle Identifier value, otherwise the app users won’t be able to be authorized. So, go back to Xcode, click on the project target on the Project Navigator pane, and under the General tab copy the value of the Bundle Identifier field.
+Return on the Facebook dashboard, and paste or type the Bundle Identifier in the Bundle ID field. Also, make sure to enable the Single Sign On toggle button. Finally, click on the Save Changes button and this step is ready.
+4. Download the [Facebook SDK for iOS](https://developers.facebook.com/docs/ios/) and install the package. By default, the package is extracted on the Documents directory of your user account on your computer.
 
 ## Configuring your Xcode project
 
+2. Open the DPBFacebookLogin-Info.plist file and edit the **FacebookAppID**,**FacebookDisplayName**,**URL types** rows with the Facebook App information created before in Facebook Developers Webiste. 
 
+	>In URL types row, you must append your FacebookAppID to the fb words Ej: fb1456411552408175
+	
+ 	![DPBLoginViewController image](http://imageshack.com/a/img835/3121/lrzn.png)
+ 	
+3. Compile the code and you're ¡Ready to play!
+
+> You can read full instrucctions about this procces on [Facebook Docs](https://developers.facebook.com/docs/ios/getting-started)
+
+ ** You can follow me on Twitter [@dpbataller](http://twitter.com/dpbataller) **
+ 
