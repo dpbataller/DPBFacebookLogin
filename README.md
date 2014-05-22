@@ -4,7 +4,7 @@
 
 ## Overview
 
-**DPBFacebookLogin**, a example that show how can we use the feature *Login With Facebook* for *iOS* using Facebook SDK 3, iOS 7 and auto layout.
+**DPBFacebookLogin**, a example that show how can we use the feature *Login With Facebook* for *iOS* using Facebook SDK, iOS 7 and auto layout.
 
 This example consists of an application with **2 View Controllers** (*DPBLoginViewController* and *DPBProfileViewController*). 
 
