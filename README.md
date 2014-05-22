@@ -31,7 +31,7 @@ Return on the Facebook dashboard, and paste or type the Bundle Identifier in the
 
 ## Configuring your Xcode project
 
-2. Open the DPBFacebookLogin-Info.plist file and edit the **FacebookAppID**,**FacebookDisplayName**,**URL types** rows with the Facebook App information created before in Facebook Developers Webiste. 
+2. Open the DPBFacebookLogin project and go to DPBFacebookLogin-Info.plist file. Edit the **FacebookAppID**,**FacebookDisplayName**,**URL types** rows with the Facebook App information created before in Facebook Developers Webiste. 
 
 	>In URL types row, you must append your FacebookAppID to the fb words Ej: fb1456411552408175
 	
