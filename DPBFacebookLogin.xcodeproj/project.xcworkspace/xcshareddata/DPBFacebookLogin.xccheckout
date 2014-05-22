@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3BF0A975-3FBB-407E-A37F-CAFA5A57E688</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DPBFacebookLogin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B1EC676F-A847-4C92-95D8-7D1670C323BB</key>
+		<string>https://github.com/dpbataller/DPBFacebookLogin.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DPBFacebookLogin.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B1EC676F-A847-4C92-95D8-7D1670C323BB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dpbataller/DPBFacebookLogin.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B1EC676F-A847-4C92-95D8-7D1670C323BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B1EC676F-A847-4C92-95D8-7D1670C323BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DPBFacebookLogin</string>
+		</dict>
+	</array>
+</dict>
+</plist>
