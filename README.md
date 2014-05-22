@@ -37,7 +37,7 @@ Return on the Facebook dashboard, and paste or type the Bundle Identifier in the
 	
  	![DPBLoginViewController image](http://imageshack.com/a/img835/3121/lrzn.png)
  	
-3. Compile the code and you're ¡Ready to play!
+3. Compile the code and ¡Volià!
 
 > You can read full instrucctions about this procces on [Facebook Docs](https://developers.facebook.com/docs/ios/getting-started)
 
