@@ -23,15 +23,15 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>FacebookAppID</key>
-	<string>1448411545402175</string>
+	<string>FB_APP_ID</string>
 	<key>FacebookDisplayName</key>
-	<string>fBLogin</string>
+	<string>FB_DISPLAY_NAME</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb1448411545402175</string>
+				<string>fb_APP_ID</string>
 			</array>
 		</dict>
 	</array>

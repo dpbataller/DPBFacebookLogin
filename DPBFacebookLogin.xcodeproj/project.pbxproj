@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B45D4A6192E0CF200D75792 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B45D4A5192E0CF200D75792 /* FacebookSDK.framework */; };
 		6BAA02F9192CBC4200891EDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAA02F8192CBC4200891EDF /* Foundation.framework */; };
 		6BAA02FB192CBC4200891EDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAA02FA192CBC4200891EDF /* CoreGraphics.framework */; };
 		6BAA02FD192CBC4200891EDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAA02FC192CBC4200891EDF /* UIKit.framework */; };
@@ -20,7 +21,6 @@
 		6BAA031A192CBC4200891EDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAA02FC192CBC4200891EDF /* UIKit.framework */; };
 		6BAA0322192CBC4200891EDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BAA0320192CBC4200891EDF /* InfoPlist.strings */; };
 		6BAA0324192CBC4200891EDF /* DPBFacebookLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAA0323192CBC4200891EDF /* DPBFacebookLoginTests.m */; };
-		6BAA032E192CBD0300891EDF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAA032D192CBD0300891EDF /* FacebookSDK.framework */; };
 		6BAA0334192CC09A00891EDF /* DPBUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAA0333192CC09A00891EDF /* DPBUserProfileViewController.m */; };
 		6BAA0337192CC17500891EDF /* DPBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAA0336192CC17500891EDF /* DPBLoginViewController.m */; };
 /* End PBXBuildFile section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B45D4A5192E0CF200D75792 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		6BAA02F5192CBC4200891EDF /* DPBFacebookLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPBFacebookLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BAA02F8192CBC4200891EDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6BAA02FA192CBC4200891EDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,7 +54,6 @@
 		6BAA031F192CBC4200891EDF /* DPBFacebookLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DPBFacebookLoginTests-Info.plist"; sourceTree = "<group>"; };
 		6BAA0321192CBC4200891EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6BAA0323192CBC4200891EDF /* DPBFacebookLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBFacebookLoginTests.m; sourceTree = "<group>"; };
-		6BAA032D192CBD0300891EDF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		6BAA0332192CC09A00891EDF /* DPBUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBUserProfileViewController.h; sourceTree = "<group>"; };
 		6BAA0333192CC09A00891EDF /* DPBUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBUserProfileViewController.m; sourceTree = "<group>"; };
 		6BAA0335192CC17500891EDF /* DPBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBLoginViewController.h; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BAA02FB192CBC4200891EDF /* CoreGraphics.framework in Frameworks */,
-				6BAA032E192CBD0300891EDF /* FacebookSDK.framework in Frameworks */,
+				6B45D4A6192E0CF200D75792 /* FacebookSDK.framework in Frameworks */,
 				6BAA02FD192CBC4200891EDF /* UIKit.framework in Frameworks */,
 				6BAA02F9192CBC4200891EDF /* Foundation.framework in Frameworks */,
 			);
@@ -107,7 +107,7 @@
 		6BAA02F7192CBC4200891EDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6BAA032D192CBD0300891EDF /* FacebookSDK.framework */,
+				6B45D4A5192E0CF200D75792 /* FacebookSDK.framework */,
 				6BAA02F8192CBC4200891EDF /* Foundation.framework */,
 				6BAA02FA192CBC4200891EDF /* CoreGraphics.framework */,
 				6BAA02FC192CBC4200891EDF /* UIKit.framework */,
@@ -390,6 +390,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/dpbataller/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DPBFacebookLogin/DPBFacebookLogin-Prefix.pch";
@@ -407,6 +408,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/dpbataller/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DPBFacebookLogin/DPBFacebookLogin-Prefix.pch";
@@ -475,6 +477,7 @@
 				6BAA0329192CBC4200891EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BAA032A192CBC4200891EDF /* Build configuration list for PBXNativeTarget "DPBFacebookLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +486,7 @@
 				6BAA032C192CBC4200891EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
