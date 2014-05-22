@@ -41,5 +41,5 @@ Return on the Facebook dashboard, and paste or type the Bundle Identifier in the
 
 > You can read full instrucctions about this procces on [Facebook Docs](https://developers.facebook.com/docs/ios/getting-started)
 
- ** You can follow me on Twitter [@dpbataller](http://twitter.com/dpbataller) **
+ *** You can follow me on Twitter [@dpbataller](http://twitter.com/dpbataller) ***
  
